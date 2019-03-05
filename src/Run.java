@@ -10,7 +10,7 @@ public class Run {
         Book[] booksThatExist = libraryService.listAll();
         for (Book book: booksThatExist
              ) {
-            System.out.println(book.getId() + " - " + book.getTitle());
+            System.out.println(book.getId() + " - " + book.getTitle()); 
         }
     }
 }
